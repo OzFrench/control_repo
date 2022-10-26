@@ -10,6 +10,6 @@ class profile::ssh_server {
 		ensure => present,
 		user   => 'root',
 		type   => 'ssh-rsa',
-		key    => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCsFaFUSAlgw/cFK/Cb5btfPg2+xyDPpEe1FrvPWSyAH0lTnXBaDyjgMH0rSMJUDAMrBDLO9Nk+HGADeFL+vjQAzgPqFoESnoNrqHCJOdWDVMiZRo92hApCO5Wx6E6eYAPFsL8YuM0N9B+fmKLWS3ecBdtL+2cfIitk1efQSI7rm5QFy7uXeLc3ITdkU2kqzfg5+XWnIX1PXj9iZ7a2WwiLW2D2wF0mpgmhf+O6rpC+Rg55G3UT7wKrbbL8ig8kxVdRhdoisY11U37oSUGCL2uudjvKlzNzZFCRB5fdKkFnZjWB+UtNkVmQAlDsFxFKHXY7WsSt8lgyuK5ApnpQHK9b root@master.puppet.vm',
+		key    => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCsFaFUSAlgw/cFK/Cb5btfPg2+xyDPpEe1FrvPWSyAH0lTnXBaDyjgMH0rSMJUDAMrBDLO9Nk+HGADeFL+vjQAzgPqFoESnoNrqHCJOdWDVMiZRo92hApCO5Wx6E6eYAPFsL8YuM0N9B+fmKLWS3ecBdtL+2cfIitk1efQSI7rm5QFy7uXeLc3ITdkU2kqzfg5+XWnIX1PXj9iZ7a2WwiLW2D2wF0mpgmhf+O6rpC+Rg55G3UT7wKrbbL8ig8kxVdRhdoisY11U37oSUGCL2uudjvKlzNzZFCRB5fdKkFnZjWB+UtNkVmQAlDsFxFKHXY7WsSt8lgyuK5ApnpQHK9b',
 	}  
 }
